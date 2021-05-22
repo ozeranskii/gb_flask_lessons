@@ -1,0 +1,5 @@
+Flask==1.1.4
+Werkzeug==0.16.1
+python-dotenv==0.17.1
+click==7.1.2
+Flask-SQLAlchemy==2.5.1
