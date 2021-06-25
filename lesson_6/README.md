@@ -1,4 +1,4 @@
-# Demo App for Lesson 5 GeekBrains
+# Demo App for Lesson 6 GeekBrains
 
 ## Install 
 1. Create new virtual env
