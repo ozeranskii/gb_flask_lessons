@@ -1,4 +1,4 @@
-# Demo App for Lesson 6 GeekBrains
+# Demo App for Lesson 7 GeekBrains
 
 ## Install 
 1. Create new virtual env
@@ -18,6 +18,7 @@ pip install -r requirements.txt
 ```shell
 flask db upgrade
 flask create-init-user
+flask create-init-tags
 ```
 6. Run flask application
 ```shell
