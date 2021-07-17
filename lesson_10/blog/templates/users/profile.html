@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    User profile
+{% endblock %}
+
+{% block body %}
+    <h1>Hi, {{ user.first_name }}!</h1>
+    <h3>Author of article:</h3>
+    {% for article in user.author.articles %}
+        <ul>
+            <li>
+                <a href="{{ url_for('article.article_detail', article_id=article.id) }}">
+                    {{ article.title }}
+                </a>
+            </li>
+        </ul>
+    {% else %}
+        <div class="alert alert-warning" role="alert">
+            Articles not found
+        </div>
+    {% endfor %}
+
+{% endblock %}
